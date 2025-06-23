@@ -1,0 +1,35 @@
+/* Custom scrollbar for a cleaner look */
+body {
+    /* Set Inter font as the primary font for the body */
+    font-family: 'Inter', sans-serif;
+    /* Enable smooth scrolling behavior for anchor links */
+    scroll-behavior: smooth;
+}
+
+/* Styles for the Webkit (Chrome, Safari) scrollbar track */
+::-webkit-scrollbar {
+    /* Set the width of the scrollbar */
+    width: 8px;
+}
+
+/* Styles for the scrollbar track */
+::-webkit-scrollbar-track {
+    /* Light gray background for the track */
+    background: #f1f1f1;
+    /* Rounded corners for the track */
+    border-radius: 10px;
+}
+
+/* Styles for the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    /* Dark gray background for the thumb */
+    background: #888;
+    /* Rounded corners for the thumb */
+    border-radius: 10px;
+}
+
+/* Styles for the scrollbar thumb when hovered */
+::-webkit-scrollbar-thumb:hover {
+    /* Slightly darker gray background on hover */
+    background: #555;
+}
